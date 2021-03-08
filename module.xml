@@ -19,6 +19,9 @@
       </ModuleReference>
     </Dependencies>
 	<SourcesRoot>src</SourcesRoot>
+	<Invokes>
+        <Invoke Class="apptools.lte.smarthome" Method="Init"></Invoke>
+    </Invokes>
 	<Resource Name="apptools.lte.smarthome.CLS"/>
     </Module>
   </Document>
