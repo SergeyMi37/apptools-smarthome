@@ -1,0 +1,29 @@
+# Options
+version: '1.0.0'
+
+# Send regular message to bot
+debug_print: yes
+# frequency of polling the sensor in seconds
+#timeout: 3600
+timeout: 15
+# Minimum notification threshold in degrees Celsius
+min_threshold: 15
+# Maximum notification threshold in degrees Celsius
+max_threshold: 25
+
+
+# Options telebot
+token: 1111111
+chat_id: 1111111
+
+# Sensor parameters
+# the path to the file
+#dirbus1w: /tmp/
+dirbus1w: temp-test.txt
+
+# parameters for registering and sending a message to the iris server
+username='superuser'
+password='SYS'
+base_url="http://127.0.0.1:52773/apptoolsrest/custom-task/user/run&class=apptools.core.rest&met=SaveLog&par="
+
+
