@@ -52,7 +52,7 @@ After=multi-user.target
 
 [Service]
 type=idle
-ExecStart=/usr/bin/python3 /path/to/script/check-send.py.py
+ExecStart=/usr/bin/python3 /path/to/script/check-send.py /path/to/script/check-send.yml
 Restart=always
  
 [Install]
