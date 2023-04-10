@@ -31,7 +31,7 @@ def send_telegram(text: str):
         #raise Exception("post_text error")
         print("Error",r.status_code)
     else:
-        print("Послано удачно")
+        print("Sent successfully")
 
 
 def read_tempera():
