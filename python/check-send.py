@@ -29,7 +29,7 @@ def send_telegram(text: str):
 
     if r.status_code != 200:
         #raise Exception("post_text error")
-        print("Ошибка",r.status_code)
+        print("Error",r.status_code)
     else:
         print("Послано удачно")
 
