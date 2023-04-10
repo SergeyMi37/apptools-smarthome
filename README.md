@@ -43,7 +43,6 @@ $ docker-compose build
 ```
 $ docker-compose up -d
 ```
-
 ## How to Test it
 Open IRIS terminal:
 
